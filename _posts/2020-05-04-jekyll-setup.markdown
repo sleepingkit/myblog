@@ -24,3 +24,4 @@ categories: Jekyll setup
 >
 > * Don't change the theme directly in GitHub setting
 > * The date of the post you have created on local should not be the future date, otherwise it will skip your post when built
+> * Add image should add your website url to your path, you may check the path of the image above

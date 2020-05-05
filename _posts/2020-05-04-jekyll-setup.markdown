@@ -13,13 +13,9 @@ categories: Jekyll setup
 4. Remove the `.gitignore` file
 5. Push all the things to your repository
 6. Go to the setting of your `GitHub` repo
-
 ![github_setting](https://sleepingkit.github.io/myblog/assets/github_setting.png)
-
 7. Change the source of `GitHub` Pages to master branch
-
-   ![github_pages](https://sleepingkit.github.io/myblog/assets/github_pages.png)
-
+![github_pages](https://sleepingkit.github.io/myblog/assets/github_pages.png)
 8. Wait for a minute and your first `Jekyll` site is built!
 
 

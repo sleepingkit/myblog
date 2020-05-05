@@ -2,7 +2,7 @@
 layout: posts
 title:  "Flutter Tips!"
 ---
-# Dismiss keyboard onTap
+## Dismiss keyboard onTap
 > Wrap the whole page widget with `GestureDetector` and change the current focus
 
 {% highlight dart %}
@@ -28,10 +28,10 @@ class MyApp extends StatelessWidget {
 }
 {% endhighlight %}
 
-# TextField avoid the bottom widget overflow
+## TextField avoid the bottom widget overflow
 > add `resizeToAvoidBottomPadding` equal to false to the `Scaffold` widget
 
-# ListView image rebuild when scroll
+## ListView image rebuild when scroll
 > Add keep alive  
 > Ref: [flutter-listview-keepalive-after-some-scroll](https://stackoverflow.com/questions/52541172/flutter-listview-keepalive-after-some-scroll)
 
@@ -55,5 +55,5 @@ class FooState extends State<Foo> with AutomaticKeepAliveClientMixin {
 }
 {% endhighlight %}
 
-# ListTile onTap no ink effect
+## ListTile onTap no ink effect
 > Remove the parent widget `Container` of the `ListTile`

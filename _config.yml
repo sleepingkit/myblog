@@ -25,10 +25,10 @@ description: >- # this means to ignore newlines until "baseurl:"
   Records of my programming life
 baseurl: "/myblog" # the subpath of your site, e.g. /blog
 url: "https://sleepingkit.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  sleepginkit
+github_username:  sleepingkit
 
 # Build settings
-theme: reverie
+remote_theme: amitmerchant1990/reverie
 plugins:
   - jekyll-feed
 paginate: 6

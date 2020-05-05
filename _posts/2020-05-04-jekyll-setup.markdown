@@ -11,7 +11,7 @@ categories: Jekyll setup
 > $ git init  
 > $ git add remote origin `your_git_repo.git`  
 4. Remove the `.gitignore` file  
-5. Change the _config.yml file which is under your project root   
+5. Change the `baseurl` and `url` in _config.yml file which is under your project root   
 > baseurl: "/myblog" # the subpath of your site, e.g. /blog  
 > url: "https://sleepingkit.github.io"</code> # the base hostname & protocol for your site, e.g. http://example.com  
 6. Push all the things to your repository

@@ -31,6 +31,7 @@ github_username:  sleepingkit
 remote_theme: amitmerchant1990/reverie
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 paginate: 6
 # Exclude from processing.
 # The following items will not be processed, by default.

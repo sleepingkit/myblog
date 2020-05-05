@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title:  "Jekyll X GitHub Setup!"
 date:   2020-05-04 00:00:00 +0800
 categories: Jekyll setup 

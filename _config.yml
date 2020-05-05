@@ -28,7 +28,7 @@ url: "https://sleepingkit.github.io" # the base hostname & protocol for your sit
 github_username:  sleepingkit
 
 # Build settings
-theme: jekyll-theme-leap-day
+theme: minima
 plugins:
   - jekyll-feed
   - jekyll-remote-theme

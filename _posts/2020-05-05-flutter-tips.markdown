@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title:  "Flutter Tips!"
 date:   2020-05-05 10:49:31 +0800
 categories: flutter 

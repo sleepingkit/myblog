@@ -1,8 +1,6 @@
 ---
 layout: posts
 title:  "Flutter Tips!"
-date:   2020-05-05 10:49:31 +0800
-categories: flutter 
 ---
 # Dismiss keyboard onTap
 > Wrap the whole page widget with `GestureDetector` and change the current focus

@@ -2,6 +2,7 @@
 layout: posts
 title:  "Jekyll X GitHub Setup!"
 date:   2020-05-04 00:00:00 +0800
+toc: true
 categories: Jekyll setup 
 ---
 1. Install [Jekyll](https://jekyllrb.com/) and create a `Jekyll` project

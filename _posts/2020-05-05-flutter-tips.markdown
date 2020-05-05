@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
 > add `resizeToAvoidBottomPadding` equal to false to the `Scaffold` widget
 
 # ListView image rebuild when scroll
-> Add keep alive
+> Add keep alive  
 > Ref: [flutter-listview-keepalive-after-some-scroll](https://stackoverflow.com/questions/52541172/flutter-listview-keepalive-after-some-scroll)
 
 

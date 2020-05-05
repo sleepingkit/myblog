@@ -28,11 +28,10 @@ url: "https://sleepingkit.github.io" # the base hostname & protocol for your sit
 github_username:  sleepingkit
 
 # Build settings
-theme: jekyll-theme-leap-day
+remote-theme: poole/lanyon
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
-paginate: 6
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

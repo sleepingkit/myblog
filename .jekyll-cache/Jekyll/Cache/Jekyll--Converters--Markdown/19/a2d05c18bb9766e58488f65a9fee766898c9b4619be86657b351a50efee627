@@ -1,0 +1,5 @@
+I"Ô<h1 id="dismiss-keyboard-ontap">Dismiss keyboard onTap</h1>
+<blockquote>
+  <p>Wrap the whole page widget with <code class="highlighter-rouge">GestureDetector</code> and change the current focus</p>
+</blockquote>
+:ET

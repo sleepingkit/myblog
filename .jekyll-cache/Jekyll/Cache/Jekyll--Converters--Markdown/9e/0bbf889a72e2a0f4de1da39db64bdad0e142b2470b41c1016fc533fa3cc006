@@ -1,0 +1,59 @@
+I"à<h1 id="dismiss-keyboard-ontap">Dismiss keyboard onTap</h1>
+<blockquote>
+  <p>Wrap the whole page widget with <code class="highlighter-rouge">GestureDetector</code> and change the current focus</p>
+</blockquote>
+
+<figure class="highlight"><pre><code class="language-dart" data-lang="dart"><span class="kd">class</span> <span class="nc">MyApp</span> <span class="kd">extends</span> <span class="n">StatelessWidget</span> <span class="o">{</span>
+  <span class="nd">@override</span>
+  <span class="n">Widget</span> <span class="n">build</span><span class="o">(</span><span class="n">BuildContext</span> <span class="n">context</span><span class="o">)</span> <span class="o">{</span>
+    <span class="k">return</span> <span class="n">GestureDetector</span><span class="o">(</span>
+      <span class="nl">onTap:</span> <span class="o">()</span> <span class="o">{</span>
+        <span class="n">FocusScopeNode</span> <span class="n">currentFocus</span> <span class="o">=</span> <span class="n">FocusScope</span><span class="o">.</span><span class="na">of</span><span class="o">(</span><span class="n">context</span><span class="o">);</span>
+         <span class="k">if</span> <span class="o">(!</span><span class="n">currentFocus</span><span class="o">.</span><span class="na">hasPrimaryFocus</span><span class="o">)</span> <span class="o">{</span>
+          <span class="n">currentFocus</span><span class="o">.</span><span class="na">unfocus</span><span class="o">();</span>
+        <span class="o">}</span>
+      <span class="o">},</span>
+      <span class="nl">child:</span> <span class="n">MaterialApp</span><span class="o">(</span>
+        <span class="nl">title:</span> <span class="s">'Flutter Demo'</span><span class="o">,</span>
+        <span class="nl">theme:</span> <span class="n">ThemeData</span><span class="o">(</span>
+          <span class="nl">primarySwatch:</span> <span class="n">Colors</span><span class="o">.</span><span class="na">blue</span><span class="o">,</span>
+        <span class="o">),</span>
+        <span class="nl">home:</span> <span class="n">MyHomePage</span><span class="o">(),</span>
+      <span class="o">),</span>
+    <span class="o">);</span>
+  <span class="o">}</span>
+<span class="o">}</span></code></pre></figure>
+
+<h1 id="textfield-avoid-the-bottom-widget-overflow">TextField avoid the bottom widget overflow</h1>
+<blockquote>
+  <p>add <code class="highlighter-rouge">resizeToAvoidBottomPadding</code> equal to false to the <code class="highlighter-rouge">Scaffold</code> widget</p>
+</blockquote>
+
+<h1 id="listview-image-rebuild-when-scroll">ListView image rebuild when scroll</h1>
+<blockquote>
+  <p>Add keep alive
+Ref: <a href="https://stackoverflow.com/questions/52541172/flutter-listview-keepalive-after-some-scroll">flutter-listview-keepalive-after-some-scroll</a></p>
+</blockquote>
+
+<figure class="highlight"><pre><code class="language-dart" data-lang="dart"><span class="kd">class</span> <span class="nc">Foo</span> <span class="kd">extends</span> <span class="n">StatefulWidget</span> <span class="o">{</span>
+  <span class="nd">@override</span>
+  <span class="n">FooState</span> <span class="n">createState</span><span class="o">()</span> <span class="o">{</span>
+    <span class="k">return</span> <span class="k">new</span> <span class="n">FooState</span><span class="o">();</span>
+  <span class="o">}</span>
+<span class="o">}</span>
+<span class="kd">class</span> <span class="nc">FooState</span> <span class="kd">extends</span> <span class="n">State</span><span class="o">&lt;</span><span class="n">Foo</span><span class="o">&gt;</span> <span class="k">with</span> <span class="n">AutomaticKeepAliveClientMixin</span> <span class="o">{</span>
+  <span class="nd">@override</span>
+  <span class="n">Widget</span> <span class="n">build</span><span class="o">(</span><span class="n">BuildContext</span> <span class="n">context</span><span class="o">)</span> <span class="o">{</span>
+    <span class="k">return</span> <span class="n">Container</span><span class="o">(</span>
+    <span class="o">);</span>
+  <span class="o">}</span>
+
+  <span class="nd">@override</span>
+  <span class="kt">bool</span> <span class="kd">get</span> <span class="n">wantKeepAlive</span> <span class="o">=&gt;</span> <span class="kc">true</span><span class="o">;</span>
+<span class="o">}</span></code></pre></figure>
+
+<h1 id="listtile-ontap-no-ink-effect">ListTile onTap no ink effect</h1>
+<blockquote>
+  <p>Remove the parent widget <code class="highlighter-rouge">Container</code> of the <code class="highlighter-rouge">ListTile</code></p>
+</blockquote>
+:ET

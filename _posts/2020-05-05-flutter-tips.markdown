@@ -1,5 +1,4 @@
 ---
-layout: posts
 title:  "Flutter Tips!"
 ---
 ## Dismiss keyboard onTap

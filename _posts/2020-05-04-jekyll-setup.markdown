@@ -1,5 +1,4 @@
 ---
-layout: posts
 title:  "Jekyll X GitHub Setup!"
 ---
 1. Install [Jekyll](https://jekyllrb.com/) and create a `Jekyll` project

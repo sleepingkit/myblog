@@ -44,7 +44,7 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-  
+
 defaults:
   # _posts
   - scope:
@@ -60,6 +60,7 @@ defaults:
       toc_sticky: true
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.19.2"
+minimal_mistakes_skin: "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 plugins:
   - jekyll-feed
   - jekyll-remote-theme

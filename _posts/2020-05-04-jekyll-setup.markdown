@@ -7,7 +7,7 @@ title:  "Jekyll X GitHub Setup!"
 3. Go to the project root on your local computer
     ``` shell
     git init
-    git add remote origin `your_git_repo.git`  
+    git add remote origin your_git_repo.git  
     ```
 4. Change the `baseurl` and `url` in _config.yml file which is under your project root  
     ``` yml

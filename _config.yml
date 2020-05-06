@@ -26,6 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/myblog" # the subpath of your site, e.g. /blog
 url: "https://sleepingkit.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  sleepingkit
+author: sleepingkit
 search: true
 search_full_content: true
 # Conversion

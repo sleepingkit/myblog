@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
 {% endhighlight %}
 
 ## TextField avoid the bottom widget overflow
-> Add `resizeToAvoidBottomPadding` equal to false to the `Scaffold` widget
+> Set `resizeToAvoidBottomPadding` equal to false to the `Scaffold` widget
 
 ## ListView image rebuild when scroll
 > Add keep alive  

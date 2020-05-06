@@ -72,7 +72,7 @@ I suggest to use [Minimal Mistakes]. The following tutorial is talking about how
         - scope:
             path: ""
             type: posts
-            values:
+          values:
             layout: single
             read_time: true
             comments: true

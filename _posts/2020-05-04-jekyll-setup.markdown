@@ -66,21 +66,21 @@ I suggest to use [Minimal Mistakes]. The following tutorial is talking about how
     ---
     ```
 6. Add the followings in *_config.yml*, so that you don't have to add the posts layout in every post, same for the other type of layout.  
-   ``` yml  
-   defaults:
-    # _posts
-    - scope:
-        path: ""
-        type: posts
-        values:
-        layout: single
-        read_time: true
-        comments: true
-        share: true
-        related: true
-        toc: true   #table if content
-        toc_sticky: true
-    ```
+   ``` yml
+    defaults:
+        # _posts
+        - scope:
+            path: ""
+            type: posts
+            values:
+            layout: single
+            read_time: true
+            comments: true
+            share: true
+            related: true
+            toc: true
+            toc_sticky: true
+   ```
 7. Push your changes to your Github project and see the changes!
 
 [Minimal Mistakes]: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/

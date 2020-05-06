@@ -32,18 +32,18 @@ title:  "Jekyll X GitHub Setup!"
 
 I suggest to use [Minimal Mistakes]. The following tutorial is talking about how to change the theme in your Github page but not in **local**. If you want to test in your local computer, you may read the documents of [Minimal Mistakes] 
 
-1. Uncommnet this line in ./Gemfile
+1. Uncommnet this line in ./Gemfile  
    ``` ruby
    gem "github-pages", group: :jekyll_plugins
    ```
-2. Add `gem "jekyll-remote-theme"` to the jekyll_plugins in *./Gemfile*
+2. Add `gem "jekyll-remote-theme"` to the jekyll_plugins in *./Gemfile*  
    ``` ruby
    group :jekyll_plugins do
     gem "jekyll-feed", "~> 0.12"
     gem "jekyll-remote-theme"
     end
    ```
-3. Replace the current theme to remote-theme in *./_config.yml*
+3. Replace the current theme to remote-theme in *./_config.yml*  
    from:  
    ``` yml
    theme: minima
@@ -52,20 +52,20 @@ I suggest to use [Minimal Mistakes]. The following tutorial is talking about how
    ``` yml
    remote_theme: "mmistakes/minimal-mistakes@4.19.2"
    ```
-4. Add `jekyll-remote-theme` and `jekyll-include-cache` plugins in *./_config.yml*
+4. Add `jekyll-remote-theme` and `jekyll-include-cache` plugins in *./_config.yml*  s
    ``` yml
    plugins:
      - jekyll-feed
      - jekyll-remote-theme
      - jekyll-include-cache
    ```
-5. In your posts `yy-mm-dd-post-title.markdown`, remove the YAML Front Matter `layout: post`
+5. In your posts `yy-mm-dd-post-title.markdown`, remove the YAML Front Matter `layout: post`  
     ```
     ---
     title:  "Post title"
     ---
     ```
-6. Add the followings in *_config.yml*, so that you don't have to add the posts layout in every post, same for the other type of layout.
+6. Add the followings in *_config.yml*, so that you don't have to add the posts layout in every post, same for the other type of layout.  
    ``` yml
    defaults:
     # _posts

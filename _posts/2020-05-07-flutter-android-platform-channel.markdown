@@ -1,5 +1,6 @@
 ---
 title:  "Flutter Android Platform Channel"
+last_modified_at: 2020-05-07 00:00:00 +0800
 ---
 
 ## Import Flutter Module into the native Android Project

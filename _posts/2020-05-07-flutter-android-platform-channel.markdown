@@ -59,11 +59,11 @@ android {
 
 Add flutter activity in *./AndroidManifest.xml*
 ``` xml
-<activity
-    android:name="io.flutter.embedding.android.FlutterActivity"
-    android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-    android:hardwareAccelerated="true"
-    android:windowSoftInputMode="adjustResize" />
+    <activity
+        android:name="io.flutter.embedding.android.FlutterActivity"
+        android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+        android:hardwareAccelerated="true"
+        android:windowSoftInputMode="adjustResize" />
 ```
 
 ## Start flutter activity

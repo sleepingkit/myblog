@@ -1,6 +1,5 @@
 ---
 title:  "Flutter Tips!"
-categories: Flutter bugs
 ---
 ## Dismiss keyboard onTap
 > Wrap the whole page widget with `GestureDetector` and change the current focus

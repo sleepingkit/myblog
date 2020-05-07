@@ -1,6 +1,5 @@
 ---
 title:  "Flutter Android Platform Channel"
-categories: Flutter plaform module android
 ---
 
 ## Import Flutter Module into the native Android Project

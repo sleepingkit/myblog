@@ -35,8 +35,13 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
+# Outputting
+permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
+category_archive:
+  type: liquid
+  path: /categories/
 
 # Markdown Processing
 kramdown:

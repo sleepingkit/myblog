@@ -1,6 +1,37 @@
 ---
 title:  "Flutter Tips!"
 ---
+## Partial blur of image
+``` dart
+Stack(
+  children: <Widget>[
+    Image.asset(
+      'assets/images/background.jpg',
+      width: _width,
+      height: _height,
+      fit: BoxFit.cover,
+    ),
+    FlutterLogo(size: 80, colors: Colors.red),
+    Positioned(
+      top: 0,
+      left: 0,
+      width: _blurWidth,
+      height: _blurHeight,
+      // Note: without ClipRect, the blur region will be expanded to full
+      // size of the Image instead of custom size
+      child: ClipRect(
+        child: BackdropFilter(
+          filter: ImageFilter.blur(sigmaX: _sigmaX, sigmaY: _sigmaY),
+          child: Container(
+            color: Colors.black.withOpacity(_opacity),
+          ),
+        ),
+      ),
+    )
+  ],
+);
+```
+
 ## Dismiss keyboard onTap
 > Wrap the whole page widget with `GestureDetector` and change the current focus
 

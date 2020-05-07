@@ -1,6 +1,9 @@
 ---
 title:  "Flutter Tips!"
 last_modified_at: 2020-05-07 16:36:00 +0800
+categories:
+  - flutter
+  - tips
 ---
 ## Partial blur of image
 ``` dart

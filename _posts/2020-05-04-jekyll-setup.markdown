@@ -1,6 +1,10 @@
 ---
 title:  "Jekyll X GitHub Setup!"
 last_modified_at: 2020-05-04 00:00:00 +0800
+categories:
+  - jekyll
+  - github
+  - setup
 ---
 ## Create your first Jekyll GitHub page  
 1. Install [Jekyll](https://jekyllrb.com/) and create a `Jekyll` project

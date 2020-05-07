@@ -8,8 +8,10 @@ categories: Flutter
 ``` shell
 flutter build aar
 ```
-You will see the followings result after built, follow those steps
-``` shell
+
+You will see the followings result after built, follow those steps  
+
+``` shell  
 Consuming the Module
   1. Open <host>/app/build.gradle
   2. Ensure you have the repositories configured, otherwise add them:
@@ -41,11 +43,12 @@ Consuming the Module
         }
       }
     }
-
 ```
+
 2. The Flutter Android engine uses Java 8 features.  
 Before attempting to connect your Flutter module project to your host Android app, ensure that your host Android app declares the following source compatibility within your app’s build.gradle file, under the android { } block, such as: 
-``` 
+
+``` xml
 android {
   //...
   compileOptions {
@@ -54,6 +57,7 @@ android {
   }
 }
 ```
+
 3. Add flutter activity in *./AndroidManifest.xml*
 ``` xml
         <activity
@@ -316,3 +320,9 @@ class _MyHomePageState extends State<MyHomePage> {
 }
 
 ```
+
+## Reference
+* [Project Setup](https://flutter.dev/docs/development/add-to-app/android/project-setup#java-8-requirement)
+* [Flutter for android devs](https://flutter.dev/docs/get-started/flutter-for/android-devs#what-is-the-equivalent-of-an-intent-in-flutter)
+* [Communication between flutter and native modules](https://proandroiddev.com/communication-between-flutter-and-native-modules-9b52c6a72dd2)
+* [Flutter modlue android yaml](https://blog.codemagic.io/flutter-module-android-yaml/)

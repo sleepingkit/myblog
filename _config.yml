@@ -35,6 +35,8 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
 
 # Markdown Processing
 kramdown:

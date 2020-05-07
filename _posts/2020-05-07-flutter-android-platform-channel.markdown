@@ -4,7 +4,7 @@ categories: Flutter
 ---
 
 ## Import Flutter Module into the native Android Project
-1. Create a flutter module and build an aar
+Create a flutter module and build an aar
 ``` shell
 flutter build aar
 ```
@@ -45,7 +45,7 @@ Consuming the Module
     }
 ```
 
-2. The Flutter Android engine uses Java 8 features.  
+The Flutter Android engine uses Java 8 features.  
 Before attempting to connect your Flutter module project to your host Android app, ensure that your host Android app declares the following source compatibility within your app’s build.gradle file, under the android { } block, such as: 
 
 ``` xml
@@ -58,7 +58,7 @@ android {
 }
 ```
 
-3. Add flutter activity in *./AndroidManifest.xml*
+Add flutter activity in *./AndroidManifest.xml*
 ``` xml
         <activity
             android:name="io.flutter.embedding.android.FlutterActivity"

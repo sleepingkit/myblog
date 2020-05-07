@@ -326,3 +326,4 @@ class _MyHomePageState extends State<MyHomePage> {
 * [Flutter for android devs](https://flutter.dev/docs/get-started/flutter-for/android-devs#what-is-the-equivalent-of-an-intent-in-flutter)
 * [Communication between flutter and native modules](https://proandroiddev.com/communication-between-flutter-and-native-modules-9b52c6a72dd2)
 * [Flutter modlue android yaml](https://blog.codemagic.io/flutter-module-android-yaml/)
+* [Flutter android communication](https://juejin.im/post/5e15a6305188253a6a20eb1c)

@@ -134,9 +134,9 @@ Native ad can insert into anywhere you like, but I will use another package [flu
 Follow the insturction of the package you will add the native ad easily. The only things I want to mention is that this native ad package will cause `RuntimeException: FlutterJNI.ensureAttachedToNative`. But this seems nothing happens to the app, so never mind? Tell me if it cause some bug in your app.
 
 ## Attention
-- You may find that ads `cannot show` when you are using your own ID just created. Don't worry, this is because you have not set up your build release setting. [Singing your app](https://flutter.dev/docs/deployment/android#signing-the-app) and see if it works.
+- You may find that ads `cannot show` when you are using your own ID just created. Don't worry, this is because you have not set up your build `Release` setting. [Singing your app](https://flutter.dev/docs/deployment/android#signing-the-app) and see if it works.
 
-- You will see the real ad when you build the release version, and plesase `don't click` the ad by yourself, Google is watching you! He may warn you if you are doing this.
+- You will see the real ad when you build the `Release` version, and please `don't click` the ad by yourself, Google is watching you! He may warn you if you are doing this.
   
 [flutter_native_admob]: https://pub.dev/packages/flutter_native_admob
 [firebase_admob]: https://pub.dev/packages/firebase_admob

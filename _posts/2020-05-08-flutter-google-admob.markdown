@@ -10,7 +10,7 @@ categories:
 Login in your [Google Admob](https://admob.google.com/intl/zh-CN_cn/home/) account. Click Apps-> ADD APP
 ![add_a_new_app](https://sleepingkit.github.io/myblog/assets/add_a_new_app.png)
 
-Choose **No** if you haven't publish your app to the store. You can connect your Play Store app with this app id when you app is published.
+Choose `No` if you haven't publish your app to the store. You can connect your Play Store app with this app id when you app is published.
 
 ![set_up_a_new_app](https://sleepingkit.github.io/myblog/assets/set_up_a_new_app.png)
 
@@ -20,13 +20,13 @@ Choose the suitable ads for your app.
 
 ![add_ad_units](https://sleepingkit.github.io/myblog/assets/add_ad_units.png)
 
-You will get the ad unit id after **SELECT** the ads above. The name of the ads is up to you.
+You will get the ad unit id after `SELECT` the ads above. The name of the ads is up to you.
 
 ![ad_units](https://sleepingkit.github.io/myblog/assets/ad_units.png)
 
 ### Android
 
-AdMob 17 requires the **App ID** to be included in the `AndroidManifest.xml`. Failure to do so will result in a crash on launch of your app. The line should look like:
+AdMob 17 requires the `App ID` to be included in the `AndroidManifest.xml`. Failure to do so will result in a crash on launch of your app. The line should look like:
 
 ```xml
 <meta-data
@@ -131,11 +131,12 @@ RewardedVideoAd.instance.listener =
 ## Add NativeAd
 Native ad can insert into anywhere you like, but I will use another package [flutter_native_admob]. This is much easier to use.
 
-Follow the insturction of the package you will add the native ad easily. The only things I want to mention is that this native ad package will cause **RuntimeException: FlutterJNI.ensureAttachedToNative**. But this seems nothing happens to the app, so never mind? Tell me if it cause some bug in your app.
+Follow the insturction of the package you will add the native ad easily. The only things I want to mention is that this native ad package will cause `RuntimeException: FlutterJNI.ensureAttachedToNative`. But this seems nothing happens to the app, so never mind? Tell me if it cause some bug in your app.
 
 ## Attention
-- You may find that ads **cannot show** when you are using your own ID just created. Don't worry, this is because you have not set up your build release setting. [Singing your app](https://flutter.dev/docs/deployment/android#signing-the-app) and see if it works.
+- You may find that ads `cannot show` when you are using your own ID just created. Don't worry, this is because you have not set up your build release setting. [Singing your app](https://flutter.dev/docs/deployment/android#signing-the-app) and see if it works.
 
-
+- You will see the real ad when you build the release version, and plesase `don't click` the ad by yourself, Google is watching you! He may warn you if you are doing this.
+  
 [flutter_native_admob]: https://pub.dev/packages/flutter_native_admob
 [firebase_admob]: https://pub.dev/packages/firebase_admob

@@ -9,7 +9,6 @@ categories:
 ## Create Google Admob ID
 
 Login in your [Google Admob](https://admob.google.com/intl/zh-CN_cn/home/) account. Click Apps-> ADD APP
-
 ![add_a_new_app](https://sleepingkit.github.io/myblog/assets/add_a_new_app.png)
 
 Choose **No** if you haven't publish your app to the store. You can connect your Play Store app with this app id when you app is published.
@@ -64,7 +63,7 @@ class GoogleAdmob {
 }
 ```
 
-Add the package [firebase_admob]('https://pub.dev/packages/firebase_admob') into your project.
+Add the package [firebase_admob] into your project.
 
 Paste this line on your home page `initState()`
 ```dart
@@ -140,3 +139,4 @@ Follow the insturction of the package you will add the native ad easily. The onl
 
 
 [flutter_native_admob]: https://pub.dev/packages/flutter_native_admob
+[firebase_admob]: https://pub.dev/packages/firebase_admob

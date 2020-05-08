@@ -3,7 +3,6 @@ title:  "Displaying Ads in your Flutter Apps $_$!"
 last_modified_at: 2020-05-08 00:00:00 +0800
 categories:
   - flutter
-  - android
   - admob
 ---
 ## Create Google Admob ID
@@ -58,7 +57,7 @@ For me, I would like to store all the IDs in a class
 class GoogleAdmob {
   static String appID = "ca-app-pub-xxxxxxxxxxxxx~xxxxxxxxxxxx";
   static String bannerID = "ca-app-pub-xxxxxxxxxxxxxxxx/xxxxxxxxxx";
-  static String initID = "ca-app-pub-xxxxxxxxxxxxxxxx/xxxxxxxxxx";
+  static String intID = "ca-app-pub-xxxxxxxxxxxxxxxx/xxxxxxxxxx";
   static String rewardID = "ca-app-pub-xxxxxxxxxxxxxxxx/xxxxxxxxxx";
 }
 ```
@@ -95,7 +94,7 @@ You can dispose the Banner:
 myBanner.dispose()
 ```
 
-## Add InterstitialAd
+## Add InterstitialAd (A Full Screen Ad)
 
 Basically same as BannerAd, you can check the [firebase_admob] document directly.
 

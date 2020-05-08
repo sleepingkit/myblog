@@ -1,5 +1,5 @@
 ---
- title:  "Displaying ads into your Flutter Apps $_$!"
+ title:  "Displaying Ads in your Flutter Apps $_$!"
 last_modified_at: 2020-05-08 00:00:00 +0800
 categories:
   - flutter

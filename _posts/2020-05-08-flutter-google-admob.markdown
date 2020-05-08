@@ -1,9 +1,10 @@
 ---
- title:  "Displaying Ads in your Flutter Apps $_$!"
+title:  "Displaying Ads in your Flutter Apps $_$!"
 last_modified_at: 2020-05-08 00:00:00 +0800
 categories:
   - flutter
   - android
+  - admob
 ---
 ## Create Google Admob ID
 
@@ -97,7 +98,7 @@ myBanner.dispose()
 
 ## Add InterstitialAd
 
-Basically same as BannerAd, you can check the [firebase_admob]('https://pub.dev/packages/firebase_admob') document directly.
+Basically same as BannerAd, you can check the [firebase_admob] document directly.
 
 
 ## Add RewardedVideoAd
@@ -130,9 +131,12 @@ RewardedVideoAd.instance.listener =
 ```
 
 ## Add NativeAd
-Native ad can insert into anywhere you like, but I will use another package [flutter_native_admob](https://pub.dev/packages/flutter_native_admob). This is much easier to use.
+Native ad can insert into anywhere you like, but I will use another package [flutter_native_admob]. This is much easier to use.
 
 Follow the insturction of the package you will add the native ad easily. The only things I want to mention is that this native ad package will cause **RuntimeException: FlutterJNI.ensureAttachedToNative**. But this seems nothing happens to the app, so never mind? Tell me if it cause some bug in your app.
 
 ## Attention
 - You may find that ads **cannot show** when you are using your own ID just created. Don't worry, this is because you have not set up your build release setting. [Singing your app](https://flutter.dev/docs/deployment/android#signing-the-app) and see if it works.
+
+
+[flutter_native_admob]: https://pub.dev/packages/flutter_native_admob

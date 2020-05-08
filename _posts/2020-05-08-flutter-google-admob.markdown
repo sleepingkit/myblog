@@ -10,7 +10,7 @@ categories:
 Login in your [Google Admob](https://admob.google.com/intl/zh-CN_cn/home/) account. Click Apps-> ADD APP
 ![add_a_new_app](https://sleepingkit.github.io/myblog/assets/add_a_new_app.png)
 
-Choose `No` if you haven't publish your app to the store. You can connect your Play Store app with this app id when you app is published.
+Choose `No` if you haven't yet published your app to the store. You can connect your Play Store app with this app id when your app is published.
 
 ![set_up_a_new_app](https://sleepingkit.github.io/myblog/assets/set_up_a_new_app.png)
 

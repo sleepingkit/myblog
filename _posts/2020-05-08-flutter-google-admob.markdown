@@ -1,6 +1,6 @@
 ---
 title:  "Displaying Ads in your Flutter Apps $_$!"
-last_modified_at: 2020-05-08 00:00:00 +0800
+last_modified_at: 2020-05-11 00:00:00 +0800
 categories:
   - flutter
   - admob
@@ -138,7 +138,7 @@ Follow the insturction of the package you will add the native ad easily. The onl
 
 - You will see the real ad when you build the `Release` version, and please `don't click` the ad by yourself, Google is watching you! He may warn you if you are doing this.
 
-- If your Admob account is `just created`, you may need to wait for the verification, your ads will be shown after received a verified email from Google.
+- If your Admob account is `just created`, remember to set the `Payments` setting and you may need to wait for the verification, your ads will be shown after received a verified email from Google. 
   
 [flutter_native_admob]: https://pub.dev/packages/flutter_native_admob
 [firebase_admob]: https://pub.dev/packages/firebase_admob

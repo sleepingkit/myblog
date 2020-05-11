@@ -137,6 +137,8 @@ Follow the insturction of the package you will add the native ad easily. The onl
 - You may find that ads `cannot show` when you are using your own ID just created. Don't worry, this is because you have not set up your build `Release` setting. [Singing your app](https://flutter.dev/docs/deployment/android#signing-the-app) and see if it works.
 
 - You will see the real ad when you build the `Release` version, and please `don't click` the ad by yourself, Google is watching you! He may warn you if you are doing this.
+
+- If your Admob account is `just created`, you may need to wait for the verification, your ads will be shown after received a verified email from Google.
   
 [flutter_native_admob]: https://pub.dev/packages/flutter_native_admob
 [firebase_admob]: https://pub.dev/packages/firebase_admob

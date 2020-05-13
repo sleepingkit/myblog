@@ -1,10 +1,22 @@
 ---
 title:  "Flutter Tips!"
-last_modified_at: 2020-05-07 16:36:00 +0800
+last_modified_at: 2020-05-13 16:36:00 +0800
 categories:
   - flutter
   - tips
 ---
+## Callback After `build` context
+```dart
+executeAfterWholeBuildProcess(){
+  // Do something you want after build
+}
+
+@override
+Widget build(BuildContext context) {
+  WidgetsBinding.instance
+    .addPostFrameCallback((_) => executeAfterWholeBuildProcess());
+```
+
 ## Partial blur of image
 ``` dart
 Stack(

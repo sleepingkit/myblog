@@ -2,9 +2,9 @@
 title:  "Flutter X Firebase dynamic link!"
 last_modified_at: 2020-05-04 00:00:00 +0800
 categories:
-  - jekyll
-  - github
-  - setup
+  - firebase
+  - deeplink
+  - flutter
 ---
 
 # Create a Firebase project

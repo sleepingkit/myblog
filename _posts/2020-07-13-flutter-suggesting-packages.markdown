@@ -49,7 +49,6 @@ This package contains pre-canned animations for commonly-desired effects. The an
 ## [easy_localization](https://pub.dev/packages/easy_localization)
 
 Easy translations for many languages,
-cons:
 
 > logs cannot remove
 

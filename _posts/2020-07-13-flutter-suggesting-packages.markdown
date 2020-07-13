@@ -8,23 +8,35 @@ categories:
 
 ## [flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons)
 
-A command-line tool which simplifies the task of updating your Flutter app's launcher icon. Fully flexible, allowing you to choose what platform you wish to update the launcher icon for and if you want, the option to keep your old launcher icon in case you want to revert back sometime in the future
+A command-line tool which simplifies the task of `updating your Flutter app's launcher icon`. Fully flexible, allowing you to choose what platform you wish to update the launcher icon for and if you want, the option to keep your old launcher icon in case you want to revert back sometime in the future
 
 ## [get](https://pub.dev/packages/get)
 
-This package make your flutter development life easiler, easy to get context anywhere
+This package make your flutter development life easiler, easy to get `context` anywhere
 
 ## [dio](https://pub.dev/packages/dio)
 
-A powerful Http client for Dart, which supports Interceptors, Global configuration, FormData, Request Cancellation, File downloading, Timeout etc
+A powerful `Http client` for Dart, which supports Interceptors, Global configuration, FormData, Request Cancellation, File downloading, Timeout etc
 
 ## [provider](https://pub.dev/packages/provider)
 
-Provider - state management
+Provider - `state` management
 
 ## [shared_preferences](https://pub.dev/packages/shared_preferences)
 
-Wraps platform-specific persistent storage for simple data
+Wraps platform-specific persistent `storage` for simple data
+
+## [flutter_cache_manager](https://pub.dev/packages/flutter_cache_manager)
+
+A CacheManager to download and cache files in the cache directory of the app. Various settings on how long to keep a file can be changed.
+
+## [share](https://pub.dev/packages/share)
+
+A Flutter plugin to share content from your Flutter app via the platform's share dialog.
+
+## [permission_handler](https://pub.dev/packages/permission_handler)
+
+This plugin provides a cross-platform (iOS, Android) API to request `permissions` and check their status.
 
 ## [flushbar](https://pub.dev/packages/flushbar)
 
@@ -32,11 +44,11 @@ Beautiful notification bar
 
 ## [auto_size_text](https://pub.dev/packages/auto_size_text)
 
-Flutter widget that automatically resizes text to fit perfectly within its bounds
+Flutter widget that automatically `resizes` text to fit perfectly within its bounds
 
 ## [flutter_form_builder](https://pub.dev/packages/flutter_form_builder)
 
-This package helps in creation of Flutter Forms by providing the syntactic sugar for creating a Form Widget and reduce the boilerplate needed to build a form, validate fields, react to changes, and collect the value of the Form
+This package helps in creation of Flutter Forms by providing the syntactic sugar for creating a `Form Widget` and reduce the boilerplate needed to build a form, validate fields, react to changes, and collect the value of the Form
 
 ## [webview_flutter](https://pub.dev/packages/webview_flutter)
 
@@ -48,7 +60,7 @@ This package contains pre-canned animations for commonly-desired effects. The an
 
 ## [easy_localization](https://pub.dev/packages/easy_localization)
 
-Easy translations for many languages,
+Easy `translations` for many languages,
 
 > logs cannot remove
 

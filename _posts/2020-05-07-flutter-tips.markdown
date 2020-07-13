@@ -26,6 +26,7 @@ class Test extends StatelessWidget {
     this.boolList=const []; // empty list should be const
     this.textColor = const Color(0xff505050),
   }) : textLength=text.length,super(key: key); //super must be initialized at the last
+}
 ```
 
 ## Callback After `build` context

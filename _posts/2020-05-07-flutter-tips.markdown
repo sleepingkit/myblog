@@ -1,10 +1,33 @@
 ---
 title:  "Flutter Tips!"
-last_modified_at: 2020-05-13 16:36:00 +0800
+last_modified_at: 2020-07-13 00:00:00 +0800
 categories:
   - flutter
   - tips
 ---
+
+## Constructor assign parameters value to field values
+```dart
+class Test extends StatelessWidget {
+  final Color color;
+  final String text;
+  final bool isSquare;
+  final double size;
+  final Color textColor;
+  final int textLength;
+  final List<bool> boolList;
+  // Constructor should not be const if you want to do this
+  Test({
+    Key key,
+    this.color,
+    this.text,
+    this.isSquare,
+    this.size = 16,
+    this.boolList=const []; // empty list should be const
+    this.textColor = const Color(0xff505050),
+  }) : textLength=text.length,super(key: key); //super must be initialized at the last
+```
+
 ## Callback After `build` context
 ```dart
 executeAfterWholeBuildProcess(){
